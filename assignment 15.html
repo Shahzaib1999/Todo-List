@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 15</title>
+
+    <style>
+        .list {
+            margin: 0 auto;
+            width: 1050px;
+            border: 0px solid red;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+            .list input {
+                margin-right: 10px;
+            }
+
+        .btn {
+            width: 75px;
+            height: 30px;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+
+        .border {
+            height: 35px;
+            border-bottom: 1px solid grey;
+        }
+    </style>
+
+</head>
+<body id="body">
+
+    <center><h1>Scorecard</h1></center>
+    <br />
+    <div class="list" id="list1">
+        Batsman
+        <input id="batsman" type="text" size="20" />
+        Wicket
+        <input id="wicket" type="text" size="20" />
+        Runs
+        <input id="run" type="number" style="width:70px;" />
+        Balls
+        <input id="ball" type="number" style="width:70px;" />
+        Fours
+        <input id="four" type="number" style="width:70px;" />
+        Sixes
+        <input id="six" type="number" style="width:70px;" /><br /><br />
+        <input type="button" id="aaa" value="Add" class="btn" onclick="add()" />
+    </div>
+    <div class="list" id="scorecard">
+        <table border="0" style="border-top:1px solid grey;" id="table">
+            <tr>
+                <th class="border" width="200">Batsman</th>
+                <th class="border" width="200">Wicket</th>
+                <th class="border" width="120">R</th>
+                <th class="border" width="120">B</th>
+                <th class="border" width="120">4s</th>
+                <th class="border" width="120">6s</th>
+                <th class="border" width="120">S.R</th>
+            </tr>
+
+        </table>
+
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <center><h2>For edditing click on the row which you want to edit</h2></center>
+
+    <script src="assignment 15.js"></script>
+
+</body>
+</html>
