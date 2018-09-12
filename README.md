@@ -1,2 +1,2 @@
 # Todo-List
-Bacis todo list using JavaScript
+Basic todo list using JavaScript
